@@ -101,7 +101,7 @@ def buy(request):
     a=request.POST.get('product_buy')
     l=list(a.split())
     
-    filename=r"c:\Users\MMG\Desktop\NBMRS\minor\website\csvfile\recent_activity.csv"
+    filename=r"C:\\Users\\SUVARNA\\Food Recommendation\\DJANGO\\minor\\website\\csvfile\\recent_activity.csv"
     df2=pd.read_csv(filename)
     
     currentDT = datetime.datetime.now()
@@ -120,8 +120,8 @@ def buy(request):
 
 def order(request):
     if Profile.objects.get(number=request.user.username).second_time:
-        filename=r"c:\Users\MMG\Desktop\NBMRS\minor\website\csvfile\recent_activity.csv"
-        filename2=r"c:\Users\MMG\Desktop\NBMRS\minor\website\dataset.csv"
+        filename=r"C:\\Users\\SUVARNA\\Food Recommendation\\DJANGO\\minor\\website\\csvfile\\recent_activity.csv"
+        filename2=r"C:\\Users\\SUVARNA\\Food Recommendation\\DJANGO\\minor\\website\\dataset.csv"
                 
         df=pd.read_csv(filename)
         df1=pd.read_csv(filename2)
@@ -179,7 +179,7 @@ def LikeRate(request):
         like=list(request.POST.get('likeinp').split(','))
         rate=list(request.POST.get('rateinp').split(','))
         
-        filename=r'C:\Users\MMG\Desktop\NBMRS\minor\website\csvfile\recent_activity.csv'
+        filename=r"C:\\Users\\SUVARNA\\Food Recommendation\\DJANGO\\minor\\website\\csvfile\\recent_activity.csv"
         df=pd.read_csv(filename)
         currentDT = datetime.datetime.now()
         i=0;
