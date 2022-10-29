@@ -7,7 +7,7 @@ import numpy as np
 import sklearn
 from sklearn.neighbors import NearestNeighbors
 
-df = pd.read_csv(r"S:/Meal_recommendation_system\DJANGO/minor\website\dataset.csv")
+df = pd.read_csv(r"C:\\Users\\SUVARNA\\Food_recommendation\\DJANGO\\minor\\website\\dataset.csv")
 
 def Recommend(request):
     
@@ -15,7 +15,7 @@ def Recommend(request):
         class Recommender:
             
             def __init__(self):
-                self.df = pd.read_csv(r"S:/Meal_recommendation_system\DJANGO/minor\website\dataset.csv")
+                self.df = pd.read_csv(r"C:\\Users\\SUVARNA\\Food_recommendation\\DJANGO\\minor\\website\\dataset.csv")
             
             def get_features(self):
                 #getting dummies of dataset

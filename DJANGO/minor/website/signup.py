@@ -59,7 +59,7 @@ def signup_user(request):
   
 def fill_CSV(user,lst):
     
-    filename=r"S:/Meal_recommendation_system\DJANGO/minor\website/csvfile/user_Profiles.csv"
+    filename=r"C:\\Users\\SUVARNA\\Food_recommendation\\DJANGO\\minor\\website\\csvfile\\user_Profiles.csv"
     df=pd.read_csv(filename)  
     
     if user in df.values:     #user is variable for user

@@ -28,7 +28,7 @@ class Profile(models.Model):
     disease = models.TextField(max_length=1500)
     cuisines = models.TextField(max_length=1500)
     medicalhistory = models.TextField(max_length=1500)
-    image=models.ImageField(upload_to='website/images',default=r"S:/Meal_recommendation_system\DJANGO/minor/media\website/images/avtar.png")
+    image=models.ImageField(upload_to='website/images',default=r"C:\\Users\\SUVARNA\\Food_recommendation\\DJANGO\\minor\\media\\website\\images\\avtar.png")
     second_time = models.BooleanField(default="False") 
     
     def __str__(self):
