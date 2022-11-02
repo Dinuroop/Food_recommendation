@@ -107,4 +107,4 @@ User_100,veg,calcium, kidney_disease hypertension anemia goitre heart_disease di
 9182277012,non-veg,protien vitamin_a,eye_disease,vegan_diet high_protien_diet
 9345289743,non-veg,vitamin_a vitamin_c vitamin_d,eye_disease,high_protien_diet type_a_diet low_sodium_diet
 8019890842,veg,protien calcium vitamin_a,eye_disease,high_protien_diet type_a_diet
-9866710705,veg,protien calcium,diabeties,vegan_diet high_protien_diet type_a_diet
+9866710705,non-veg,protien carbohydrates,hypertension,paleo_diet
